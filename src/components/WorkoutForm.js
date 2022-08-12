@@ -38,7 +38,7 @@ const WorkoutForm = () => {
             // console.log('new workout added:', json)
             dispatch({ type: 'CREATE_WORKOUT', payload: json })
         }
-    }
+    };
 
     return (
         <form className="create" onSubmit={handleSubmit}>
@@ -74,4 +74,4 @@ const WorkoutForm = () => {
     )
 };
 
-export default WorkoutForm
+export default WorkoutForm;
