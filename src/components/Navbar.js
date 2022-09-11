@@ -11,10 +11,10 @@ const Navbar = () => {
     };
 
     return (
-        <header>
-            <div className="container">
+        <header className='container-fluid'>
+            <div className="contenu">
                 <Link to="/">
-                    <h1>Workout Buddy</h1>
+                    <h1>My Space</h1>
                 </Link>
                 <nav>
                     {user && (

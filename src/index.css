@@ -1,5 +1,5 @@
 /* google font */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap'); */
 
 /* layout */
 :root {
@@ -14,20 +14,22 @@ body {
 }
 
 header {
-  background: #fff;
+  background: lightslategray;
+  /* border: 1px solid red; */
 }
 
-header .container {
+header .contenu {
   max-width: 1400px;
   margin: 0 auto;
   padding: 10px 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  /* border: 1px solid red; */
 }
 
 header a {
-  color: #333;
+  color: lightgrey;
   text-decoration: none;
 }
 
